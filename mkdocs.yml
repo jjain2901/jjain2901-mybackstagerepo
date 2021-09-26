@@ -1,0 +1,8 @@
+site_name: "MyDoc"
+site_description: "My document "
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "MyDoc"
+  description: "My document "
+  annotations:
+    github.com/project-slug: jjain2901/jjain2901/mybackstagerepo
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "boxoffice"
